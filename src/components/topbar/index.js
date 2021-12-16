@@ -1,13 +1,18 @@
-import React from 'react'
-import './styles/style.css'
+import React from "react";
+import "./styles/style.css";
 
-import NepalFlag from '../../assets/topbar-flag.png'
 export default function Topbar() {
-    return (
-        <div className='topbar__container'>
-            <img src={NepalFlag} alt="Nepal" />
-            <span>Free Shipping inside KTM Valley.</span>
-            <span>ENG</span>
-        </div>
-    )
+  return (
+    <div className="topbar__container">
+      <div>
+        <span>Ship to</span>{" "}
+        <img
+          src="https://thriftmyoutfit.s3.ap-south-1.amazonaws.com/topbar-flag.png"
+          alt="Nepal"
+        />
+      </div>
+      <span>Free Shipping inside KTM Valley.</span>
+      <span>ENG</span>
+    </div>
+  );
 }

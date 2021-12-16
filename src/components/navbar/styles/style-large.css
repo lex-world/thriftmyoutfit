@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 3vw;
-  position: relative; }
+  position: relative;
+  border-bottom: 0.5px solid lightgray; }
   .navbarLarge__container .navbarLarge__container__logo {
     position: absolute;
     left: 50%;
@@ -35,5 +36,10 @@
       color: #000; }
     .navbarLarge__container .navbarLarge__container__utilities li i {
       font-size: 22px; }
+    .navbarLarge__container .navbarLarge__container__utilities li a {
+      display: flex;
+      align-items: center; }
+      .navbarLarge__container .navbarLarge__container__utilities li a i {
+        margin-right: 5px; }
 
 /*# sourceMappingURL=style-large.css.map */

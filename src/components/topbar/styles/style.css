@@ -7,6 +7,10 @@
   color: #fff;
   font-size: 0.9em; }
   .topbar__container img {
-    width: 15px; }
+    width: 13px;
+    margin-left: 10px; }
+  .topbar__container div {
+    display: flex;
+    align-items: center; }
 
 /*# sourceMappingURL=style.css.map */

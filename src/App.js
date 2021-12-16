@@ -3,13 +3,12 @@ import React from "react";
 /**
  * @dev yarn registry packages
  */
-import {  Routes } from "react-router-dom";//test
-// import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 /**
  * @pages custom pages
  */
-// import UnderConstruction from "./pages/underconstruction";
+import Home from "./pages/Home";
 
 /**
  * @components custom components
@@ -28,7 +27,7 @@ export default function App() {
       {windowWidth > 1200 ? <NavbarLarge /> : <NavbarSmall />}
 
       <Routes>
-        {/* <Route exact path="/" element={<UnderConstruction/>} /> */}
+        <Route exact path="/" element={<Home/>} />
       </Routes>
     </div>
   );

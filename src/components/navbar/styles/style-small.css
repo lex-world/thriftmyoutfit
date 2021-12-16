@@ -3,7 +3,8 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 0.5px solid lightgray; }
   .navbarSmall__container .navbarSmall__container__logo {
     position: absolute;
     left: 50%;

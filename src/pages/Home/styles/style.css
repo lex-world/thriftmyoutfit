@@ -1,0 +1,34 @@
+.home__container {
+  padding: 0 3vw; }
+  .home__container .blob {
+    width: 60px;
+    height: 2px;
+    background: #000; }
+  .home__container .home__container__landing {
+    padding: 80px 0; }
+    .home__container .home__container__landing h1 {
+      text-align: center;
+      font-size: 4em; }
+    .home__container .home__container__landing p {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 1.75;
+      color: #7a7a7a; }
+  .home__container .home__container__mostLovedItems .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px; }
+    .home__container .home__container__mostLovedItems .title h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin: 0 20px; }
+  .home__container .home__container__mostLovedItems .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+
+/*# sourceMappingURL=style.css.map */

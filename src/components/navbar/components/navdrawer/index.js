@@ -10,11 +10,11 @@ import { Divider } from "@mui/material";
 const styles = {
   titleStyle: {
     display: "block",
-marginBottom: "15px",
+    marginBottom: "15px",
     fontWeight: "600",
     fontSize: "1.3em",
     letterSpacing: "6px",
-    lineHeight: "1.5"
+    lineHeight: "1.5",
   },
   listStyle: {
     width: "70vw",
@@ -68,8 +68,8 @@ export default function NavDrawer() {
         </li>
         <li>
           <Link style={styles.linkStyle} to="/">
-            <i style={styles.iconStyle} className="ri-key-line"></i>
-            <span>Login</span>
+            <i style={styles.iconStyle} className="ri-user-5-line"></i>
+            <span>Sign in</span>
           </Link>
         </li>
       </ul>
