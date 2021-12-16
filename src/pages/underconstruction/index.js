@@ -1,9 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import './style.css'
 
 export default function UnderConstruction() {
   return (
     <div className="underConstruction__container">
+      <Helmet>
+        <title>Thrift My Outfit | Keep Calm and Keep Thrifting</title>
+      </Helmet>
         <h1 className="title">Thrift My Outfit</h1>
         <video autoPlay loop muted>
           <source
