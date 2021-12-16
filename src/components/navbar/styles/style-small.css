@@ -1,0 +1,35 @@
+.navbarSmall__container {
+  padding: 10px 4vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbarSmall__container .navbarSmall__container__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px; }
+  .navbarSmall__container .navbarSmall__container__utilities {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-size: 16px; }
+    .navbarSmall__container .navbarSmall__container__utilities li {
+      margin-left: 20px; }
+      .navbarSmall__container .navbarSmall__container__utilities li button {
+        background: transparent;
+        border: none;
+        color: #000; }
+      .navbarSmall__container .navbarSmall__container__utilities li i {
+        font-size: 22px; }
+      .navbarSmall__container .navbarSmall__container__utilities li a {
+        text-decoration: none;
+        color: #000; }
+
+/*# sourceMappingURL=style-small.css.map */

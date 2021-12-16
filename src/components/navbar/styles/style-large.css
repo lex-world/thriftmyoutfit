@@ -1,0 +1,39 @@
+.navbarLarge__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3vw;
+  position: relative; }
+  .navbarLarge__container .navbarLarge__container__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 6px; }
+  .navbarLarge__container .navbarLarge__container__links,
+  .navbarLarge__container .navbarLarge__container__utilities {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-size: 16px; }
+    .navbarLarge__container .navbarLarge__container__links a,
+    .navbarLarge__container .navbarLarge__container__utilities a {
+      text-decoration: none;
+      color: #000; }
+  .navbarLarge__container .navbarLarge__container__links li:nth-child(1) {
+    margin-right: 20px; }
+  .navbarLarge__container .navbarLarge__container__utilities li {
+    margin-left: 20px; }
+    .navbarLarge__container .navbarLarge__container__utilities li button {
+      background: transparent;
+      border: none;
+      color: #000; }
+    .navbarLarge__container .navbarLarge__container__utilities li i {
+      font-size: 22px; }
+
+/*# sourceMappingURL=style-large.css.map */

@@ -8,6 +8,7 @@ import './style.css'
  * @yarn registry packages
  */
 import { BrowserRouter as Router } from "react-router-dom";
+import 'remixicon/fonts/remixicon.css' // cdn for icons
 
 ReactDOM.render(
   <Router>
