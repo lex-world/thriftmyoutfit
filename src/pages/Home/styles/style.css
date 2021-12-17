@@ -15,20 +15,69 @@
       font-size: 20px;
       line-height: 1.75;
       color: #7a7a7a; }
-  .home__container .home__container__mostLovedItems .title {
+  .home__container .home__container__mostLovedItems .title,
+  .home__container .home__container__newArrivals .title {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px; }
-    .home__container .home__container__mostLovedItems .title h2 {
+    margin-bottom: 50px;
+    margin-top: 40px; }
+    .home__container .home__container__mostLovedItems .title h2,
+    .home__container .home__container__newArrivals .title h2 {
       text-align: center;
       text-transform: uppercase;
       font-weight: 500;
       margin: 0 20px; }
-  .home__container .home__container__mostLovedItems .items {
+  .home__container .home__container__mostLovedItems .items,
+  .home__container .home__container__newArrivals .items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; }
+  .home__container .home__container__howThriftIsDelivered {
+    margin-bottom: 80px; }
+    .home__container .home__container__howThriftIsDelivered .title {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px; }
+      .home__container .home__container__howThriftIsDelivered .title h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 20px; }
+    .home__container .home__container__howThriftIsDelivered .items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .home__container .home__container__howThriftIsDelivered .items div:nth-child(2) {
+        margin: 0 70px; }
+      .home__container .home__container__howThriftIsDelivered .items div {
+        text-align: center;
+        width: 25vw; }
+        @media (max-width: 768px) {
+          .home__container .home__container__howThriftIsDelivered .items div {
+            width: 85vw; } }
+        .home__container .home__container__howThriftIsDelivered .items div img {
+          width: 90%;
+          height: 25vw;
+          object-fit: cover;
+          border-radius: 1rem; }
+          @media (max-width: 768px) {
+            .home__container .home__container__howThriftIsDelivered .items div img {
+              width: 100%;
+              height: 60vw; } }
+        .home__container .home__container__howThriftIsDelivered .items div h3 {
+          margin: 30px 0 20px 0;
+          font-weight: 600;
+          text-transform: uppercase; }
+        .home__container .home__container__howThriftIsDelivered .items div p {
+          line-height: 1.65;
+          color: #7a7a7a; }
+          @media (max-width: 768px) {
+            .home__container .home__container__howThriftIsDelivered .items div p {
+              margin-bottom: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

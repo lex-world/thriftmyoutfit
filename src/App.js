@@ -16,6 +16,7 @@ import Home from "./pages/Home";
 import Topbar from "./components/topbar";
 import NavbarLarge from "./components/navbar/index-large";
 import NavbarSmall from "./components/navbar/index-small";
+import Footer from "./components/footer";
 
 export default function App() {
   const windowWidth = window.innerWidth;
@@ -29,6 +30,8 @@ export default function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
       </Routes>
+
+      <Footer/>
     </div>
   );
 }
