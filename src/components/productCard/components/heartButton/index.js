@@ -1,12 +1,14 @@
 import React from 'react'
 import './styles/style.css'
 
-export default function HeartButton() {
+export default function HeartButton(isHearted) {
     return (
         <div className='heartButton__container'>
-            <button><i className="ri-heart-line"></i></button>
-            {/* @dev check if the item is hearted by user then check */}
-            {/* <button><i className="ri-heart-fill"></i></button> */}
+            {
+                isHearted?.isHearted ?
+                <button><i className="ri-heart-fill"></i></button>:
+                <button><i className="ri-heart-line"></i></button>
+            }
         </div>
     )
 }

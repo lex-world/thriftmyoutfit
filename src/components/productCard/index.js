@@ -5,25 +5,25 @@ import { Link } from "react-router-dom";
 
 import HeartButton from "./components/heartButton";
 
-export default function ProductCard() {
+export default function ProductCard(item) {
+  const { image, productName, productPrice, discount, isHearted } = item?.item;
   return (
     <div className="productCard__container">
       <div className="imageContainer">
-      <Link to="/success">
-      <img
-        src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-        alt="heel"
-      />
-      </Link>
-      <HeartButton/>
+        <Link to="/success">
+          <img src={image} alt={productName} />
+        </Link>
+        <HeartButton isHearted={isHearted}/>
       </div>
 
       <div className="productCard__container__details">
-        <h3 className="productName"><Link to="/">Floral High Pencil Heel</Link></h3>
+        <h3 className="productName">
+          <Link to="/">{productName}</Link>
+        </h3>
 
         <div className="productPrice">
-          <span>NRs. 500</span>
-          <span className="discounted">799</span>
+          <span>NRs. {productPrice}</span>
+          <span className="discounted">{discount?.status === true && discount?.productPrice}</span>
         </div>
 
         <div className="actionButtons">

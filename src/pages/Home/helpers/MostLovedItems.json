@@ -1,0 +1,82 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+        "productName": "Floral High Pencil Heel",
+        "productPrice": 500,
+        "discount": {
+            "status": true,
+            "productPrice": 400
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80",
+        "productName": "Plain White TShirt",
+        "productPrice": 200,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1593726856932-b5b9a661ed46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "productName": "Black Neon Dragon BallZ Edition Tshirt",
+        "productPrice": 500,
+        "discount": {
+            "status": true,
+            "productPrice": 300
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80",
+        "productName": "Plain White Winter Hoodie",
+        "productPrice": 500,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1607647735186-f3c200aa175a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "productName": "Sari Set for Wedding",
+        "productPrice": 1199,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1560774358-d727658f457c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "productName": "Adventure Red Cap",
+        "productPrice": 300,
+        "discount": {
+            "status": true,
+            "productPrice": 250
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1618355281911-84e6ec751d84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "productName": "Black Sweat Pant",
+        "productPrice": 800,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1605669226801-86285dacf048?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80",
+        "productName": "78 Bike Gloves",
+        "productPrice": 1100,
+        "discount": {
+            "status": true,
+            "productPrice": 999
+        },
+        "isHearted": true
+    }
+]

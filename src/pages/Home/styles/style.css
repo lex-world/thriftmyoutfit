@@ -34,7 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center; }
+    align-items: flex-start; }
   .home__container .home__container__howThriftIsDelivered {
     margin-bottom: 80px; }
     .home__container .home__container__howThriftIsDelivered .title {
