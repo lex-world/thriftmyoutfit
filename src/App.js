@@ -22,16 +22,18 @@ export default function App() {
   const windowWidth = window.innerWidth;
 
   return (
-    <div>
-      <Topbar />
+    <div className="app">
+      <div className="fixedTopbar">
+        <Topbar />
 
-      {windowWidth > 1200 ? <NavbarLarge /> : <NavbarSmall />}
+        {windowWidth > 1200 ? <NavbarLarge /> : <NavbarSmall />}
+      </div>
 
       <Routes>
-        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/" element={<Home />} />
       </Routes>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

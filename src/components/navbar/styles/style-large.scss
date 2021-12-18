@@ -5,6 +5,14 @@
   padding: 20px 3vw;
   position: relative;
   border-bottom: 0.5px solid rgb(211, 211, 211);
+  
+  @media (min-width: 1200px){
+    backdrop-filter: blur(10px);
+  }
+
+  @media (max-width: 1199px){
+    background: #fff;
+  }
 
   .navbarLarge__container__logo{
       position: absolute;

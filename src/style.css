@@ -11,3 +11,23 @@
   /* font-family: 'Lato', sans-serif; */
   font-family: "Raleway", sans-serif;
 }
+
+.app{
+  position: relative;
+}
+
+.app > .fixedTopbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 92px;
+  width: 100%;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1200px){
+  .app > .fixedTopbar{
+    background: #fff;
+  }
+}
+

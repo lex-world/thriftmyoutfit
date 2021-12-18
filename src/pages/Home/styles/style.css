@@ -1,5 +1,6 @@
 .home__container {
-  padding: 0 3vw; }
+  padding: 0 3vw;
+  margin-top: 80px; }
   .home__container .blob {
     width: 60px;
     height: 2px;

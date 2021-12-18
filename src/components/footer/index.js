@@ -10,8 +10,8 @@ export default function Footer() {
 
       <div className="items">
         <div>
-          <span>Thrift My Outfit</span>
-          <p>
+          <span className="title">Thrift My Outfit</span>
+          <p style={{marginTop: "20px"}}>
             &copy; 2021 Thrift My Outfit
             <br />
             All Rights Reserved.
@@ -75,7 +75,7 @@ export default function Footer() {
         <div>
           <h3>Subscribe</h3>
           <p className="subscriber__detail">Get E-mail updates about our latest shop<br/> and special offers.</p>
-          <input type="email" /><br/>
+          <input type="email" placeholder="you@awesome.com"/><br/>
           <button>Subscribe</button>
         </div>
       </div>
