@@ -1,0 +1,16 @@
+.heartButton__container {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  z-index: 1; }
+  .heartButton__container button {
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    color: #e74c3c;
+    width: 40px;
+    padding: 8px 0 5px 0;
+    font-size: 20px;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

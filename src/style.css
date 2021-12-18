@@ -1,8 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  /*
+  ** @dev following commented font family can be used later 
+  */
+  /* font-family: 'Lato', sans-serif; */
+  font-family: "Raleway", sans-serif;
 }
+
+.app{
+  position: relative;
+}
+
+.app > .fixedTopbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 92px;
+  width: 100%;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1200px){
+  .app > .fixedTopbar{
+    background: #fff;
+  }
+}
+

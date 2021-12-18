@@ -1,0 +1,118 @@
+.home__container {
+  padding: 0 3vw;
+  margin-top: 80px;
+
+  .blob {
+    width: 60px;
+    height: 2px;
+    background: #000;
+  }
+
+  .home__container__landing {
+    padding: 80px 0;
+
+    h1 {
+      text-align: center;
+      font-size: 4em;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 1.75;
+      color: #7a7a7a;
+    }
+  }
+
+  .home__container__mostLovedItems,
+  .home__container__newArrivals {
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+      margin-top: 40px;
+
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 20px;
+      }
+    }
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+
+  .home__container__howThriftIsDelivered {
+    margin-bottom: 80px;
+
+    .title {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 20px;
+      }
+    }
+
+    .items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      div:nth-child(2) {
+        margin: 0 70px;
+      }
+
+      div {
+        text-align: center;
+        width: 25vw;
+
+        @media (max-width: 768px) {
+          width: 85vw;
+        }
+
+        img {
+          width: 90%;
+          height: 25vw;
+          object-fit: cover;
+          border-radius: 1rem;
+
+          @media (max-width: 768px) {
+            width: 100%;
+            height: 60vw;
+          }
+        }
+
+        h3 {
+          margin: 30px 0 20px 0;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+
+        p {
+          line-height: 1.65;
+          color: #7a7a7a;
+
+          @media (max-width: 768px){
+            margin-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+}
