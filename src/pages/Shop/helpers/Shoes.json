@@ -1,0 +1,82 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
+        "productName": "Unisex Running Shoe",
+        "productPrice": 3500,
+        "discount": {
+            "status": true,
+            "productPrice": 3100
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+        "productName": "Floral Pointed High Heels", 
+        "productPrice": 1500,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80",
+        "productName": "Crystal Pointed Wedding High Heels",
+        "productPrice": 3000,
+        "discount": {
+            "status": true,
+            "productPrice": 2599
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Nike Air Max 270",
+        "productPrice": 1599,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Nike Air Jordan 1",
+        "productPrice": 300,
+        "discount": {
+            "status": true,
+            "productPrice": 250
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1536830220630-ce146cccac84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "productName": "Converse Full Black",
+        "productPrice": 1199,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1575425939273-46ecee6d6931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80",
+        "productName": "Full Boots",
+        "productPrice": 1100,
+        "discount": {
+            "status": true,
+            "productPrice": 999
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1572895767736-b17223abb819?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Cheetah Skin Heels",
+        "productPrice": 800,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    }
+]

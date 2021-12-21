@@ -1,0 +1,115 @@
+.shop__container {
+  margin-top: 100px;
+
+  // @section => categories
+  .shop__container__categories {
+    display: flex;
+    padding: 35px 0;
+    margin: 0 3vw;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #dedede;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      padding: 30px 0;
+    }
+
+    .blob{
+      width: 30px;
+      margin-bottom: 10px;
+      height: 2px;
+      background: #fff;
+      transition: all 0.3s ease;
+    }
+
+    .items {
+      width: 20vw;
+      height: 170px;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+
+      @media (max-width: 768px) {
+        width: 85vw;
+        margin-bottom: 40px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      &:hover {
+        .blob{
+          width: 50px;
+        }
+      }
+
+      h3 {
+        font-weight: 500;
+      }
+
+      &.urban {
+        background: url("https://images.unsplash.com/photo-1615916732335-9d320ec7f2ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1375&q=80")
+          no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.4);
+      }
+
+      &.shoes {
+        background: url("https://images.unsplash.com/photo-1463100099107-aa0980c362e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")
+          no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.3);
+      }
+
+      &.partyWears {
+        background: url("https://images.unsplash.com/photo-1482575832494-771f74bf6857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")
+          no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.3);
+      }
+
+      &.bags {
+        background: url("https://images.unsplash.com/photo-1559563458-527698bf5295?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")
+          no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.3);
+      }
+    }
+  }
+
+  // @section => new arrivals
+  .shop__container__newArrivals,
+  .shop__container__urban,
+  .shop__container__shoes,
+  .shop__container__partyWears,
+  .shop__container__bags {
+    padding: 30px 3vw 60px 3vw;
+    border-bottom: 0.5px solid #dedede;
+
+    h2 {
+      margin-bottom: 30px;
+      font-weight: 500;
+    }
+
+    .items {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .loadmore {
+      a {
+        text-decoration: none;
+        background: #000;
+        color: #fff;
+        padding: 15px 35px;
+      }
+    }
+  }
+
+  .shop__container__bags{
+    border: none;
+  }
+}

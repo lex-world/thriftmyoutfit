@@ -1,0 +1,82 @@
+[
+    {
+        "image": "https://images.unsplash.com/flagged/photo-1570700006701-4bdeaf669738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Red Skirt",
+        "productPrice": 3500,
+        "discount": {
+            "status": true,
+            "productPrice": 3100
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1542295669297-4d352b042bca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Floral One Piece", 
+        "productPrice": 1500,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1490092374320-1ca36d69ff6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80",
+        "productName": "Black Leather Jacket",
+        "productPrice": 3000,
+        "discount": {
+            "status": true,
+            "productPrice": 2599
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1576350591474-56e862d7f79f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=960&q=80",
+        "productName": "Silk Pink One Piece",
+        "productPrice": 1599,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1008&q=80",
+        "productName": "Violet One Piece with Earrings",
+        "productPrice": 300,
+        "discount": {
+            "status": true,
+            "productPrice": 250
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80",
+        "productName": "Plain White Top",
+        "productPrice": 1199,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1591024702819-e8224dddb558?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=925&q=80",
+        "productName": "Blue Denim Jeans",
+        "productPrice": 1100,
+        "discount": {
+            "status": true,
+            "productPrice": 999
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1636284262306-321fedc7b7f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Black Top",
+        "productPrice": 800,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    }
+]

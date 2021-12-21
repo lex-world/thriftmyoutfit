@@ -1,0 +1,82 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80",
+        "productName": "Blue Leather Bag",
+        "productPrice": 3500,
+        "discount": {
+            "status": true,
+            "productPrice": 3100
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1587467512961-120760940315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "productName": "YSL Red Leather Bag", 
+        "productPrice": 1500,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1583623733237-4d5764a9dc82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Louis Vuitton Leather Bag",
+        "productPrice": 3000,
+        "discount": {
+            "status": true,
+            "productPrice": 2599
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1536891648359-888e3aa968f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
+        "productName": "Antique Hand Bag",
+        "productPrice": 1599,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1613482184972-f9c1022d0928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Bihotz Side Bag",
+        "productPrice": 300,
+        "discount": {
+            "status": true,
+            "productPrice": 250
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1588056421330-045073ab19b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "productName": "Balenciaga Leather Bag",
+        "productPrice": 1199,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1571273260782-bab4699dde20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "CG Gold Chained Bag",
+        "productPrice": 1100,
+        "discount": {
+            "status": true,
+            "productPrice": 999
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1610152563300-94d6cf5608b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+        "productName": "Doro Leather Bag",
+        "productPrice": 800,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    }
+]

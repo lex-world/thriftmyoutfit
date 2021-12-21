@@ -14,7 +14,7 @@ export default function NavbarLarge() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Shop</Link>
+          <Link to="/shop">Shop</Link>
         </li>
       </ul>
       <span className="navbarLarge__container__logo">Thrift My Outfit</span>

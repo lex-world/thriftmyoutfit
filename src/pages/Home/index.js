@@ -10,6 +10,11 @@ import MostLovedItems from "./helpers/MostLovedItems.json";
 import NewArrivals from "./helpers/NewArrivals.json";
 
 export default function Home() {
+  /** @dev on page load scroll to top */
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home__container">
       <Helmet>

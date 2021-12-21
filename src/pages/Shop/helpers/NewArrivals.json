@@ -1,0 +1,82 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80",
+        "productName": "Aesthetic Cloth Set",
+        "productPrice": 3500,
+        "discount": {
+            "status": true,
+            "productPrice": 3100
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1584361117895-6dce65e3d843?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "productName": "Long Jacket Blue",
+        "productPrice": 1500,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1635814930732-0e0f8fbbfec5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "productName": "Brown Hand Bag",
+        "productPrice": 3000,
+        "discount": {
+            "status": true,
+            "productPrice": 2599
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1610016137870-5ed513cc1ba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "productName": "Rayban Glass Black",
+        "productPrice": 1599,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1560774358-d727658f457c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "productName": "Adventure Red Cap",
+        "productPrice": 300,
+        "discount": {
+            "status": true,
+            "productPrice": 250
+        },
+        "isHearted": false
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1607647735186-f3c200aa175a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "productName": "Sari Set for Wedding",
+        "productPrice": 1199,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1605669226801-86285dacf048?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80",
+        "productName": "78 Bike Gloves",
+        "productPrice": 1100,
+        "discount": {
+            "status": true,
+            "productPrice": 999
+        },
+        "isHearted": true
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1618355281911-84e6ec751d84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "productName": "Black Sweat Pant",
+        "productPrice": 800,
+        "discount": {
+            "status": false,
+            "productPrice": 0
+        },
+        "isHearted": true
+    }
+]
