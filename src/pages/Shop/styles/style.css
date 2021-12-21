@@ -69,7 +69,7 @@
     .shop__container .shop__container__partyWears .items,
     .shop__container .shop__container__bags .items {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap; }
     .shop__container .shop__container__newArrivals .loadmore a,
     .shop__container .shop__container__urban .loadmore a,
