@@ -16,11 +16,6 @@ import PartyWears from "./helpers/PartyWears.json";
 import Bags from "./helpers/Bags.json";
 
 export default function Shop() {
-  /** @dev on page load scroll to top */
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  
   return (
     <div className="shop__container">
       <Helmet>

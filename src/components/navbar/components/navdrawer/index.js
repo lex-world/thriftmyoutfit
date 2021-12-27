@@ -55,7 +55,7 @@ export default function NavDrawer() {
           </Link>
         </li>
         <li>
-          <Link style={styles.linkStyle} to="/">
+          <Link style={styles.linkStyle} to="/shop">
             <i style={styles.iconStyle} className="ri-store-2-line"></i>
             <span>Shop</span>
           </Link>
@@ -67,7 +67,7 @@ export default function NavDrawer() {
           </Link>
         </li>
         <li>
-          <Link style={styles.linkStyle} to="/">
+          <Link style={styles.linkStyle} to="/authentication">
             <i style={styles.iconStyle} className="ri-user-5-line"></i>
             <span>Sign in</span>
           </Link>

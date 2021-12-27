@@ -1,0 +1,66 @@
+.authentication__container {
+  margin-top: 100px;
+  padding: 0 10vw; }
+  .authentication__container .login__container {
+    margin: 160px auto 90px auto;
+    border-radius: 10px; }
+    .authentication__container .login__container .login__container__loginForm {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .authentication__container .login__container .login__container__loginForm .login__container__divider {
+        margin: 20px 0;
+        width: 3vw;
+        height: 3px;
+        background: #2ecc71; }
+      .authentication__container .login__container .login__container__loginForm ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 15px; }
+        .authentication__container .login__container .login__container__loginForm ul li {
+          margin-right: 15px; }
+          .authentication__container .login__container .login__container__loginForm ul li a {
+            text-decoration: none;
+            color: #000; }
+            .authentication__container .login__container .login__container__loginForm ul li a i {
+              font-size: 22px; }
+          .authentication__container .login__container .login__container__loginForm ul li:last-child {
+            margin-right: 0; }
+      .authentication__container .login__container .login__container__loginForm span {
+        margin-bottom: 20px;
+        color: #8a8a8a; }
+      .authentication__container .login__container .login__container__loginForm form {
+        display: flex;
+        flex-direction: column; }
+        .authentication__container .login__container .login__container__loginForm form label {
+          margin-bottom: 10px; }
+        .authentication__container .login__container .login__container__loginForm form input {
+          margin-bottom: 20px;
+          padding: 10px; }
+          .authentication__container .login__container .login__container__loginForm form input.input__text {
+            width: 28vw; }
+        .authentication__container .login__container .login__container__loginForm form button {
+          padding: 13px 0;
+          background: #2ecc71;
+          border: none;
+          outline: none;
+          color: #fff; }
+        .authentication__container .login__container .login__container__loginForm form a {
+          color: #2ecc71;
+          text-decoration: none; }
+        .authentication__container .login__container .login__container__loginForm form .extra {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between; }
+      .authentication__container .login__container .login__container__loginForm .register {
+        margin-top: 20px; }
+        .authentication__container .login__container .login__container__loginForm .register button {
+          background: transparent;
+          border: none;
+          color: #2ecc71;
+          font-size: 15px;
+          cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

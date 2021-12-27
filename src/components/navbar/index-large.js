@@ -35,7 +35,7 @@ export default function NavbarLarge() {
           </Link>
         </li>
         <li>
-          <Link to="/"> <i className="ri-user-5-line"></i> <span>Sign in</span></Link>
+          <Link to="/authentication"> <i className="ri-user-5-line"></i> <span>Sign in</span></Link>
         </li>
       </ul>
     </div>
